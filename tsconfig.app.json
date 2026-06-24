@@ -4,7 +4,7 @@
     "target": "ES2022",
     "useDefineForClassFields": true,
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
-    "module": "ESNext",
+    "module": "preserve",
     "types": ["vite/client"],
     "skipLibCheck": true,
     "baseUrl": "./src",        
@@ -13,8 +13,8 @@
     },
 
     /* Bundler mode */
-    // "moduleResolution": "bundler",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
+    // "moduleResolution": "node",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
